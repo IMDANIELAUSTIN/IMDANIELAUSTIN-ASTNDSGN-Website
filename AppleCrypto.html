@@ -83,20 +83,27 @@
 <body>
 
 <ul><button onclick="topFunction()" id="myBtn" title="Back to Top">Back to Top</button></ul>
-<!-- Footer -->
-<footer id="footer">
-    <section>
-        <!-- Social Links -->
-              <pre>             
-                <a href="https://www.facebook.com/imdanielaustin/" target="_blank"><span class="label">FACEBOOK</span></a>10
-                  <a href="https://www.instagram.com/ASTNDSGN/" target="_blank"><span class="label">INSTAGRAM</span></a>
-                  <a href="https://www.twitter.com/IMDANIELAUSTIN/" target="_blank"><span class="label">TWITTER</span></a>
-                  <a href="https://www.linkedin.com/in/IMDANIELAUSTIN/" target="_blank"><span class="label">LINKEDIN</span></a>
-                  <a href="tel:6268382231" target="_blank"><span class="label">(626) 838-2231</span></a>
-                  <a href="mailto:me@imdanielaustin.com" target="_blank"><span class="label">ME@IMDANIELAUSTIN.COM</span></a>
-              </pre>
-    </section>
-    <pre>COPYRIGHT © 2016-2024 DANIEL AUSTIN., ALL RIGHTS RESERVED. <br> Coded and Designed by Daniel Austin in California.</pre>       
+<!-- Footer -->                          
+    <div class="inner">
+              
+    <footer id="footer">
+    
+<!-- Social -->
+    
+                            <section>
+                            <pre>
+                                    <a href="https://www.facebook.com/imdanielaustin/" target="_blank"><span class="label">FACEBOOK</span></a>
+                                    <a href="https://www.instagram.com/ASTNDSGN/" target="_blank"><span class="label">INSTAGRAM</span></a>
+                                    <a href="https://www.twitter.com/IMDANIELAUSTIN/" target="_blank"><span class="label">TWITTER</span></a>
+                                    <a href="https://www.linkedin.com/in/IMDANIELAUSTIN/" target="_blank"><span class="label">LINKEDIN</span></a>
+                                    <a href="tel:6268382231" target="_blank"><span class="label">(626) 838-2231</span></a>
+                                    <a href="mailto:me@imdanielaustin.com" target="_blank"><span class="label">ME@IMDANIELAUSTIN.COM</span></a>
+                            
+                            </pre></section>
+                            
+<!-- Copyright Disclaimer -->
+<pre>COPYRIGHT © 2016-2024 DANIEL AUSTIN AND ASTNDSGN. ALL RIGHTS RESERVED. <br> Coded and Designed by Daniel Austin in California.</pre>
+          
 </footer>
 
 <!-- Scripts -->
@@ -105,5 +112,9 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>
 </body>
 </html>
