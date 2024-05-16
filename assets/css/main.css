@@ -184,7 +184,7 @@ body
     max-width: 100%;
     position: relative;
     transition: all 0.168s ease-out;
-    object-fit: fill; /* Ensure the image covers the area without distortion */
+    object-fit: contain; /* Ensure the image covers the area without distortion */
 }
 
 .tile h1
@@ -245,7 +245,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   }
 }
 .tiles {
-  display: ;
+  display:flex ;
   color: #000000;
   cursor: pointer;
   margin: 0 auto;
