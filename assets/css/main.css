@@ -155,7 +155,7 @@ body
     width: 640px;
     height: 640px;
     margin: 16px auto;
-    padding: inherit;
+    padding: auto;
     background-color: #1e1e1e;
     display: flex;
     background-size: contain;
@@ -182,9 +182,9 @@ body
   height: inherit;
   width:100%;
   position:absolute;
-  /* top:0; */
-  /* left:0; */
-  /* z-index:0; */
+  top:0; */
+  left:0; */
+  z-index:0; */
   transition: all 0.168s ease-out;
 }
 
@@ -207,7 +207,7 @@ body
   font-weight:300;
   margin:20px 0 0 0;
   line-height: 25px;
-/*   opacity:0; */
+  opacity:0;
   transform: translateX(-200px);
   transition-delay: 0.2s;
 }
@@ -218,13 +218,13 @@ body
 }
 .tile:hover
 {
-/*   background-color:#99aeff; */
+background-color:transparent;
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
 }
 .tile:hover img
 {
-  opacity: 0.2;
+  opacity: 100;
 }
 .tile:hover .animate-text
 {
