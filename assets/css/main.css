@@ -144,48 +144,47 @@ body
 }
 .wrap
 {
-    margin: 16px auto;
+    margin: auto;
     width: auto;
     display:grid;
     align-items: stretch;
     max-width: 1200px;
 }
-.tile
-{
-    width: 640px;
-    height: 640px;
-    margin: 16px auto;
+.tile {
+    width: 100%; /* Make the tile responsive */
+    max-width: 640px; /* Max width to maintain design */
+    height: auto; /* Height can be adjusted based on content */
+    aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
+    margin: auto;
     padding: auto;
     background-color: #1e1e1e;
     display: flex;
-    background-size: contain;
-    background-repeat: no-repeat;
+    align-items: center; /* Center vertically */
     position: relative;
     cursor: pointer;
     transition: all 0.168s ease-out;
-    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
     overflow: hidden;
     color: white;
     font-family: 'Helvetica';
-
-}
-.tile .text
-{
-    z-index: 104;
-    position:relative;
-    padding: auto;
-    height:calc(100% - 60px);
 }
 
-.tile img
-{
-  height: inherit;
-  width:100%;
-  position:absolute;
-  top:0; */
-  left:0; */
-  z-index:0; */
-  transition: all 0.168s ease-out;
+.tile .text {
+    z-index: 1;
+    position: relative;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Ensure the text container takes full width */
+    height: auto; /* Adjust the height if necessary */
+}
+
+.tile img {
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    transition: all 0.168s ease-out;
+    object-fit: fill; /* Ensure the image covers the area without distortion */
 }
 
 .tile h1
@@ -1260,12 +1259,12 @@ pre {
 }
 .tile
 {
-    width: 320;
-    height: 320;
-    margin: 16px auto;
-    padding:auto;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: auto;
     background-color: #1e1e1e;
-    display: grid;
+    display: flex;
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -1275,44 +1274,76 @@ pre {
     overflow: hidden;
     color: white;
     font-family: 'Helvetica';
+
 }
 .tile .text
 {
     z-index: 104;
-    position:absolute;
-    padding: 32px;
-    height:calc(100% - 60px);
-    line-height:24px;
+    position:relative;
+    padding: auto;
+    height: auto;
 }
 
-.tiles .img {
-  display: block;
-    color: #000000;
-    cursor: pointer;
-    margin: 0 auto;
-    align-content: middle;
-    text-align: center;
-    position: relative;
-}
-
-  .tiles a {
-  display: block;
-    color: #000000;
-    cursor: pointer;
-    margin: 0 auto;
-    align-content: middle;
-    text-align: center;
-    position: relative;
-}
-.tile pre
+.tile img
 {
-        font-weight: 300;
-        padding: 0;
-        line-height: 24px;
-        transform: translateX(-200px);
-        transition-delay: 0.168s;
-        vertical-align: middle;
-    }
+  height: inherit;
+  width:100%;
+  position:absolute;
+  top:0; */
+  left:0; */
+  z-index:0; */
+  transition: all 0.168s ease-out;
+}
+
+.tile h1
+{
+ 
+  font-weight:300;
+  margin:auto;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.tile h2
+{
+  font-weight:100;
+  margin:20px 0 0 0;
+  font-style:italic;
+   transform: translateX(200px);
+}
+.tile p
+{
+  font-weight:300;
+  margin:20px 0 0 0;
+  line-height: 25px;
+  opacity:0;
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
+}
+.animate-text
+{
+  opacity:0;
+  transition: all 0.168s ease-in-out;
+}
+.tile:hover
+{
+background-color:transparent;
+box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+  transform:scale(1.05);
+}
+.tile:hover img
+{
+  opacity: 100;
+}
+.tile:hover .animate-text
+{
+  transform:translateX(0);
+  opacity:1;
+}
+
+.tile:hover span
+{
+  opacity:1;
+  transform:translateY(0px);
+}
 h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
@@ -1574,8 +1605,8 @@ pre {
 }
 .tile
 {
-    width: 320px;
-    height: 320px;
+    max-width: 100%;
+    height: auto;
     margin: auto;
     padding: auto;
     background-color: #1e1e1e;
@@ -1596,7 +1627,7 @@ pre {
     z-index: 104;
     position:relative;
     padding: auto;
-    height:calc(100% - 60px);
+    height: auto;
 }
 
 .tile img
