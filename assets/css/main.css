@@ -373,7 +373,6 @@ a:link , a:visited {
     display: inline-block;
     text-decoration: none;
     text-align: center;
-
 }
 
 a:active, a:hover {
@@ -699,8 +698,8 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: transparent;
+    color: inherit;
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -1038,8 +1037,8 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: transparent;
+    color: inherit;
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -1375,8 +1374,8 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: transparent;
+    color: inherit;
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -1719,15 +1718,15 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: transparent;
+    color: inherit;
     display: inline-block;
     text-decoration: none;
     text-align: center;
 }
 
 a:active, a:hover {
-    background-color: #1e1e1e;
+    background-color: transparent;
     color: #ff0000;
 }
 
