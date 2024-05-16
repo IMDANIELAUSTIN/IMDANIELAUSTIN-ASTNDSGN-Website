@@ -511,14 +511,14 @@ background-color 0.3s;
     }
     
     .nav-links a:hover{
-        background: #;
+        background: transparent;
         color: #ff0000;
         opacity: 100%;
     }
     
     .show .nav-links {
         height: 100%;
-        background-color: #1e1e1e;
+        background-color: transparent;
         opacity: 100%;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
@@ -849,12 +849,13 @@ background-color 0.3s;
     }
     
     .show .nav-links {
-        height: 100%;
-        background-color: #1e1e1e;
-        opacity: 100%;
-        transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
-            background-color 0.3s;
-    }
+            height: 100%;
+            background-color: transparent;
+            opacity: 100%;
+            transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
+background-color 0.3s;
+        
+        }
     
     .nav-links a {
         height: 0;
@@ -1186,7 +1187,7 @@ background-color 0.3s;
     
     .show .nav-links {
         height: 100%;
-        background-color: #1e1e1e;
+        background-color: transparent;
         opacity: 100%;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
@@ -1731,7 +1732,7 @@ a:active, a:hover {
 }
 
 nav-links :hover{
-    background: #1e1e1e;
+    background: transparent;
     color: #ff0000;
     }
 
