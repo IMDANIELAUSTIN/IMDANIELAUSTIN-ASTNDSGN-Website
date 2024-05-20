@@ -381,13 +381,15 @@ a:active, a:hover {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     color: transparent;
-    display: inline-flex;
+    display: flex;
     cursor: pointer;
-    margin: 16;
+    margin: auto;
     align-content: center;
     text-align: center;
-    position: inherit;
+    position: relative;
 }
 
 .cover {
