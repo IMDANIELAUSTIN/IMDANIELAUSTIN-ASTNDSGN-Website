@@ -7,6 +7,8 @@
     background: #1e1e1e;
     padding: 16px 0;
     color: #ff0000;
+    max-width: 1080px;
+    margin: auto;
     }
 
 .logo {
