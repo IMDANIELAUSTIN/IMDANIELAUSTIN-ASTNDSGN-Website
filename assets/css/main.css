@@ -152,8 +152,8 @@ body
 }
 .tile
 {
-    width: 640;
-    height: 640;
+    max-width: 100vh;
+    height: 100vh;
     margin: 16px auto;
     padding: auto;
     background-color: #1e1e1e;
@@ -167,7 +167,6 @@ body
     overflow: hidden;
     color: white;
     font-family: 'Helvetica';
-
 }
 .tile .text
 {
