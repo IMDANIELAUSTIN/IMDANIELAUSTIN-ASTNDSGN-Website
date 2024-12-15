@@ -1664,8 +1664,6 @@ button:active {
     grid-template-rows: repeat(1, 1fr);
     flex: 1;
     gap: 16px;
-
-
 }
 
 .tiles img {
@@ -3032,7 +3030,6 @@ button:active {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     flex: 1;
-    border-top: 2pt solid;
 }
 
 .tile img {
@@ -3411,7 +3408,6 @@ button:active {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     flex: 1;
-    border-top: 2pt solid;
 }
 
 .tile img {
@@ -3791,7 +3787,6 @@ button:active {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     flex: 1;
-    border-top: 2pt solid;
 }
 
 .tile img {
