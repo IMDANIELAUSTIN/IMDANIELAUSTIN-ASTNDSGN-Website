@@ -4221,7 +4221,6 @@ background-color: inherit;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     flex: 1;
-    border-top: 2pt solid;
     overflow: hidden;
     transition: transform 0.3s ease;
 }
