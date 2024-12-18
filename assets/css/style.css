@@ -2124,13 +2124,14 @@ button:active {
             position: static ;
                 font-size: 10pt;
                 padding: 8px;
-    max-width: 100;
+    max-width: 100vh;
+    margin: auto;
             }
 
 .footer a {
                 position: static ;
                 margin: 0 5px;
-    max-width: 100;
+    max-width: 100vh;
             }
 main {
     display: block;
@@ -2736,6 +2737,7 @@ object-fit: cover;
             padding: 8px;
             background-color: #ffffff;
             font-size: 12px;
+            margin: auto;
         }
 
 .footer a {
@@ -3860,12 +3862,13 @@ button:active {
   overflow-y: auto;
 }
 .footer {
-            position: static ;
-            text-align: center;
-            padding: 8px;
-            background-color: #ffffff;
-            font-size: 12px;
-        }
+        position: static;
+        text-align: center;
+        padding: 8px;
+        background-color: #ffffff;
+        font-size: 12px;
+    
+    }
 
 .footer a {
             color: #1e1e1e;
@@ -4257,14 +4260,16 @@ background-color: inherit;
   overflow-y: auto;
 }
 .footer {
-            position: static ;
-                font-size: 10pt;
-                padding: 8px;
-    max-width: 100;
-            }
+        position: static;
+        font-size: 10pt;
+        padding: 8px;
+        max-width: 100vh;
+    margin: auto;
+    
+    }
 
 .footer a {
                 position: static ;
-                margin: 0 5px;
-    max-width: 100;
+                margin: auto;
+    max-width: 100vh;
             }
