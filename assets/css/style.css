@@ -4196,20 +4196,20 @@ button:active {
 }
 
 .tile-container {
-background-color: inherit;
-    display: inline-grid;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    aspect-ratio: 1/1;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    flex: 1;
-    border-top: 2pt solid;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-    margin: auto;
-}
+        background-color: inherit;
+        display: inline;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1/1;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        flex: 1;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        margin: auto;
+    
+    }
 
 .tile-title {
     margin-top: 16px !important;
