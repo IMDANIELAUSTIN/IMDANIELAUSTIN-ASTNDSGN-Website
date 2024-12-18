@@ -3216,16 +3216,18 @@ nav button:active {
             background-color 0.3s;
     }
     .show .nav-links {
-        height: 100%;
-        background-color: inherit;
+        position: absolute ;
+        height: 100vh;
+        background-color: #ffffff;
+        margin: auto;
     }
     .nav-links a {
         height: 0;
         width: 0;
         opacity: 0;
         overflow: hidden;
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
         transition: opacity 1.5s, height 2s;
     }
     .show .nav-links a {
