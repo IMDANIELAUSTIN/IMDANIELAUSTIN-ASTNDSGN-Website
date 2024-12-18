@@ -2457,6 +2457,7 @@ button:active {
     display: inline-grid;
     flex-wrap: wrap;
     gap: 8px;
+    margin: auto;
 }
 
 .tile-title {
@@ -2477,6 +2478,7 @@ button:active {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     flex: 1;
+    margin: auto;
 }
 
 .tile img {
@@ -4195,7 +4197,7 @@ button:active {
 
 .tile-container {
 background-color: inherit;
-    display: inline;
+    display: inline-grid;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -4206,6 +4208,7 @@ background-color: inherit;
     border-top: 2pt solid;
   overflow: hidden;
   transition: transform 0.3s ease;
+    margin: auto;
 }
 
 .tile-title {
@@ -4228,6 +4231,7 @@ background-color: inherit;
     flex: 1;
     overflow: hidden;
     transition: transform 0.3s ease;
+    margin: auto;
 }
 
 .tile img {
@@ -4271,5 +4275,5 @@ background-color: inherit;
 .footer a {
                 position: static ;
                 margin: auto;
-    max-width: 100vh;
+                max-width: 100vh;
             }
